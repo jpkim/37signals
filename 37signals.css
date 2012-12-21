@@ -1,0 +1,201 @@
+37signals.css
+
+.signals, html {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+div.nav, p {
+	float: left;
+	padding-top: 5px;
+	padding-left: 25px;
+	color: #999;
+	font-family: arial;
+	font-size: 12px;
+}
+div.nav ul.home {
+	float: right;
+	padding-top: 5px;
+}
+.nav ul{
+	text-align: right;
+	float: right;
+}
+.nav ul, li, a {
+	color: #369; 
+	text-decoration: none;
+	text-align: right;
+	display: inline;
+	float: right;
+	list-style: none;
+}
+.nav ul {
+	padding-left: 700px;
+}
+.nav ul li {
+	padding-right: 25px;
+}
+#logo {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.collab {
+	position: relative;
+}
+.collab h1 {
+	font-family: "CrimsonSemiBold";
+	font-size: 56px;
+	padding: 0;
+	margin-bottom: 25px;
+	text-align: center;
+	letter-spacing: -1px;
+}
+.collab h4 {
+	font-family: inherit;
+	font-size: 20px;
+	text-align: center;
+}
+.boxes {
+	margin-top: 30px;
+	width: 700px;
+	height: 250px;
+	position: relative;
+	text-align: center;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: lucida grande;
+}
+#basecamp {
+	float: left;
+	border: 2px solid #EFEFEF;
+	background: -webkit-linear-gradient(top, white, #EFEFEF);
+	width: 180px;
+	height: 250px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+#basecamp img {
+	padding-top: 20px;
+}
+#basecamp h2 {
+	font-size: 20px
+	text-decoration: underline;
+	padding: 5px;
+}
+#basecamp h3 {
+	font-size: 14px;
+	color: red;
+	padding: 5px;
+}
+#basecamp p {
+	font-size: 14px;
+	color: black;
+}
+#highrise {
+	float: left;
+	border: 2px solid #EFEFEF;
+	background: -webkit-linear-gradient(top, white, #EFEFEF);
+	width: 180px;
+	height: 250px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+#highrise img {
+	padding-top: 20px;
+}
+#highrise h2 {
+	font-size: 20px
+	text-decoration: underline;
+	padding: 5px;
+}
+#highrise h3 {
+	font-size: 14px;
+	color: red;
+	padding: 5px;
+}
+#highrise p {
+	font-size: 14px;
+	color: black;
+}
+#campfire {
+	float: left;
+	border: 2px solid #EFEFEF;
+	background: -webkit-linear-gradient(top, white, #EFEFEF);
+	width: 180px;
+	height: 250px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+#campfire img {
+	padding-top: 20px;
+}
+#campfire h2 {
+	font-size: 20px
+	text-decoration: underline;
+	padding: 5px;
+}
+#campfire h3 {
+	font-size: 14px;
+	color: red;
+	padding: 5px;
+}
+#campfire p {
+	font-size: 14px;
+	color: black;
+}
+.break {
+	padding-top: 30px;
+	text-align: center;
+	clear: both;
+}
+.customers h2 {
+	text-align: center;
+	font-size: 36px;
+}
+.customers .arrow {
+	position: absolute;
+	padding-left: 315px;
+	padding-top: 94px;
+}
+#imgcustomers {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: -515px;
+	width: 145px;
+	height: 105px;
+	padding: 0;
+}
+.meet {
+	font-size: 10px;
+}
+.loyal img {
+	float: right;
+}
+.loyal {
+	text-align: left;
+	font-size: 20px;
+	color: #666;
+	width: 600px;
+	display: inline;
+	font-family: crimsonroman;
+	float: left;
+	margin-left: 255px;
+}
+.world {
+	text-align: left;
+	font-size: 20px;
+	color: #666;
+	width: 600px;
+	display: inline;
+	font-family: crimsonroman;
+	float: left;
+	margin-left: 255px;
+}
+#logos {
+	display: block;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}

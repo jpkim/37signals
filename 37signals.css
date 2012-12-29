@@ -56,6 +56,18 @@ div.nav ul.home {
 	font-size: 20px;
 	text-align: center;
 }
+div.product {
+	float: left;
+	border: 2px solid #EFEFEF; 
+	background: -webkit-linear-gradient(top, white, #EFEFEF);
+	height: 250px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+div.product img {
+	padding-top: 20px;
+	display: inline-block;
+}
 .boxes {
 	margin-top: 30px;
 	width: 700px;
@@ -67,83 +79,23 @@ div.nav ul.home {
 	margin-right: auto;
 	font-family: lucida grande;
 }
-#basecamp {
-	float: left;
-	border: 2px solid #EFEFEF;
-	background: -webkit-linear-gradient(top, white, #EFEFEF);
-	width: 180px;
-	height: 250px;
-	margin-right: 40px;
-	border-radius: 5px;
-}
-#basecamp img {
-	padding-top: 20px;
-}
-#basecamp h2 {
+.product h2 {
+	margin: 3px;
+	font-weight: bold;
+	font-family: lucida sans unicode;
+	color: #369;
 	font-size: 20px
 	text-decoration: underline;
+}
+.product h3 {
+	margin: 3px;
+	font-size: 14px;
+	color: #c00;
 	padding: 5px;
 }
-#basecamp h3 {
+.product p {
 	font-size: 14px;
-	color: red;
-	padding: 5px;
-}
-#basecamp p {
-	font-size: 14px;
-	color: black;
-}
-#highrise {
-	float: left;
-	border: 2px solid #EFEFEF;
-	background: -webkit-linear-gradient(top, white, #EFEFEF);
-	width: 180px;
-	height: 250px;
-	margin-right: 40px;
-	border-radius: 5px;
-}
-#highrise img {
-	padding-top: 20px;
-}
-#highrise h2 {
-	font-size: 20px
-	text-decoration: underline;
-	padding: 5px;
-}
-#highrise h3 {
-	font-size: 14px;
-	color: red;
-	padding: 5px;
-}
-#highrise p {
-	font-size: 14px;
-	color: black;
-}
-#campfire {
-	float: left;
-	border: 2px solid #EFEFEF;
-	background: -webkit-linear-gradient(top, white, #EFEFEF);
-	width: 180px;
-	height: 250px;
-	margin-right: 40px;
-	border-radius: 5px;
-}
-#campfire img {
-	padding-top: 20px;
-}
-#campfire h2 {
-	font-size: 20px
-	text-decoration: underline;
-	padding: 5px;
-}
-#campfire h3 {
-	font-size: 14px;
-	color: red;
-	padding: 5px;
-}
-#campfire p {
-	font-size: 14px;
-	color: black;
+	color: #222;
 }
 .break {
 	padding-top: 30px;
@@ -153,6 +105,14 @@ div.nav ul.home {
 .customers h2 {
 	text-align: center;
 	font-size: 36px;
+}
+.customers .picture {
+	background: url ("http://37signals.com/images/img-customers.png") no-repeat;
+	height: 105px;
+	width: 200px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
 }
 .customers .arrow {
 	position: absolute;
